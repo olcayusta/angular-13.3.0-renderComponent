@@ -12,8 +12,6 @@ if (environment.production) {
 renderComponent(AppComponent)
 
 /*
-platformBrowserDynamic().bootstrapModule(AppModule, {
-  ngZone: 'noop'
-})
+platformBrowserDynamic().bootstrapModule(AppModule)
   .catch(err => console.error(err));
 */
